@@ -25,7 +25,7 @@ const Index = () => {
         <WhyHorusSection />
         {/* <ContactForm /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
