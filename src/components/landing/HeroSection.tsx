@@ -107,7 +107,7 @@ const HeroSection = () => {
           animationDelay: "0.3s"
         }}>
             <div className="relative rounded-xl overflow-hidden shadow-2xl border border-border hover-lift">
-              <img alt="Dashboard de monitoramento com drone e dados analíticos" className="w-full h-auto object-cover transition-transform duration-700 hover:scale-105" src="/lovable-uploads/388283a7-82de-44b3-8fbb-a98407ad4857.jpg" />
+              <img alt="Dashboard de monitoramento com drone e dados analíticos" className="w-full h-auto object-cover transition-transform duration-700 hover:scale-105" src="https://cdn.jsdelivr.net/gh/freshlab-web/air-intelligence@main/dist/lovable-uploads/388283a7-82de-44b3-8fbb-a98407ad4857.jpg" />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent pointer-events-none" />
             </div>
           </div>

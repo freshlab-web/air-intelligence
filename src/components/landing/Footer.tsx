@@ -1,5 +1,5 @@
-import horusLogo from "@/assets/horus-logo.png";
 import { MapPin } from "lucide-react";
+const horusLogo = "https://cdn.jsdelivr.net/gh/freshlab-web/air-intelligence@main/dist/assets/horus-logo-C2rrXbpb.png";
 
 const Footer = () => {
   return (

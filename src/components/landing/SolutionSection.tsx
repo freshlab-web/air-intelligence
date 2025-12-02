@@ -30,7 +30,7 @@ const SolutionSection = () => {
           {/* Right Column */}
           <div className="relative">
             <div className="rounded-xl overflow-hidden border border-border shadow-lg">
-              <img alt="Dashboard multilayer com visualização de dados geográficos" className="w-full h-auto object-cover" src="/lovable-uploads/650958c5-99be-4a18-8878-26dbd3e60617.webp" />
+              <img alt="Dashboard multilayer com visualização de dados geográficos" className="w-full h-auto object-cover" src="https://cdn.jsdelivr.net/gh/freshlab-web/air-intelligence@main/dist/lovable-uploads/650958c5-99be-4a18-8878-26dbd3e60617.webp" />
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ const WhyHorusSection = () => {
           {/* Right - Image */}
           <div className="relative">
             <div className="rounded-xl overflow-hidden border border-border shadow-lg">
-              <img alt="Centro de operações Horus Smart Detections" className="w-full h-auto object-cover" src="/lovable-uploads/8d71be00-af50-4706-b691-113d13363a42.webp" />
+              <img alt="Centro de operações Horus Smart Detections" className="w-full h-auto object-cover" src="https://cdn.jsdelivr.net/gh/freshlab-web/air-intelligence@main/dist/lovable-uploads/8d71be00-af50-4706-b691-113d13363a42.webp" />
             </div>
           </div>
         </div>

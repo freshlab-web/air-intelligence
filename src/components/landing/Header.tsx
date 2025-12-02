@@ -1,5 +1,5 @@
-import horusLogo from "@/assets/horus-logo.png";
 import { Button } from "@/components/ui/button";
+const horusLogo = "https://cdn.jsdelivr.net/gh/freshlab-web/air-intelligence@main/dist/assets/horus-logo-C2rrXbpb.png";
 
 const Header = () => {
   return (
