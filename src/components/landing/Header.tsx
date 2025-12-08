@@ -9,7 +9,14 @@ const Header = () => {
           <a href="#" className="flex items-center">
             <img src={horusLogo} alt="Horus Smart Detections" className="h-8 md:h-10 w-auto" />
           </a>
-          <Button variant="enterprise" size="default">
+          <Button
+            variant="enterprise"
+            size="default"
+            onClick={() => {
+              const el = document.getElementById("rd-column-jsdbj8lz");
+              el?.scrollIntoView({ behavior: "smooth", block: "start" });
+            }}
+          >
             Agendar reunião
           </Button>
         </div>

@@ -74,10 +74,24 @@ const HeroSection = () => {
             <div className="flex flex-col sm:flex-row gap-4 pt-2 animate-fade-up" style={{
             animationDelay: "0.5s"
           }}>
-              <Button variant="hero-primary" size="xl">
+              <Button
+                variant="hero-primary"
+                size="xl"
+                onClick={() => {
+                  const el = document.getElementById("rd-column-jsdbj8lz");
+                  el?.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+              >
                 Agendar reunião técnica
               </Button>
-              <Button variant="hero-secondary" size="xl">
+              <Button
+                variant="hero-secondary"
+                size="xl"
+                onClick={() => {
+                  const el = document.getElementById("architecture-flow");
+                  el?.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+              >
                 Ver arquitetura
               </Button>
             </div>

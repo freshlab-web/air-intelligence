@@ -20,7 +20,14 @@ const WhyHorusSection = () => {
                 </li>)}
             </ul>
 
-            <Button variant="enterprise" size="xl">
+            <Button
+              variant="enterprise"
+              size="xl"
+              onClick={() => {
+                const el = document.getElementById("rd-column-jsdbj8lz");
+                el?.scrollIntoView({ behavior: "smooth", block: "start" });
+              }}
+            >
               Falar com um especialista Horus
             </Button>
           </div>

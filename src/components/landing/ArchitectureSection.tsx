@@ -30,7 +30,7 @@ const ArchitectureSection = () => {
   ];
 
   return (
-    <section className="section-padding bg-background">
+    <section id="architecture-flow" className="section-padding bg-background">
       <div className="section-container">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left - Timeline */}
@@ -87,7 +87,14 @@ const ArchitectureSection = () => {
                 </div>
               </div>
 
-              <Button variant="enterprise" className="w-full">
+              <Button
+                variant="enterprise"
+                className="w-full"
+                onClick={() => {
+                  const el = document.getElementById("rd-column-jsdbj8lz");
+                  el?.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+              >
                 Agendar reunião técnica
               </Button>
             </div>

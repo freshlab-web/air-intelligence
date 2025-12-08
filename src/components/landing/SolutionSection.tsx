@@ -21,7 +21,14 @@ const SolutionSection = () => {
                 </li>)}
             </ul>
 
-            <Button variant="enterprise-outline" className="group">
+            <Button
+              variant="enterprise-outline"
+              className="group"
+              onClick={() => {
+                const el = document.getElementById("architecture-flow");
+                el?.scrollIntoView({ behavior: "smooth", block: "start" });
+              }}
+            >
               Ver fluxo da operação
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
             </Button>
